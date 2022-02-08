@@ -8,6 +8,5 @@
 # @license     GNU General Public License version 2 or later
 -------------------------------------------------------------------------*/
 
-// no direct access
 defined( '_JEXEC' ) or die;
-require JModuleHelper::getLayoutPath('mod_advanced_facebook_likebox', $params->get('layout'));
+require JModuleHelper::getLayoutPath('mod_advanced_facebook_likebox', $params->get('layout', 'default'));
