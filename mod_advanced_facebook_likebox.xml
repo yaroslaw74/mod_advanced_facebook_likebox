@@ -151,6 +151,6 @@
 		</fields>
 	</config>
 	<updateservers>
-		<server type="extension" priority="1" name="Advanced Facebook Like Box Update Site">https://raw.githubusercontent.com/yaroslaw74/mod_advanced_facebook_likebox/develop/update-advanced-facebook-likebox.xml</server>
+		<server type="extension" priority="1" name="Advanced Facebook Like Box">https://raw.githubusercontent.com/yaroslaw74/mod_advanced_facebook_likebox/develop/manifest.xml</server>
 	</updateservers>
 </extension>
