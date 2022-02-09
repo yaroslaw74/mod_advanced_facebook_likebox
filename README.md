@@ -1,4 +1,4 @@
-# advanced_facebook_likebox
+# mod_advanced_facebook_likebox
 
 This contains the Facebook like box module for Joomla. This is a module that allows you to place the Facebook "Page" plugin on your website pages.
 
