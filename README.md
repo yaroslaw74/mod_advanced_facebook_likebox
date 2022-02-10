@@ -16,7 +16,7 @@ This contains the Facebook like box module for Joomla. This is a module that all
 
 This extension was created based on the recommendation of Facebook developers (open source).
 
-History of changes
+History of changes https://github.com/yaroslaw74/mod_advanced_facebook_likebox/blob/develop/CHANGELOG
 
 ## COPYRIGHT AND DISCLAIMER
 
