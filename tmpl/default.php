@@ -34,7 +34,7 @@ if ($tabsEvents) {
 	else {$dataTabs = "events";}
 }
 if ($tabsMessages) {
-	if (!empty($dataTabs) {$dataTabs .= ",messages";}
+	if (!empty($dataTabs)) {$dataTabs .= ",messages";}
 	else {$dataTabs = "messages";}
 }
 if ($width < 180) {$width = 180;}
