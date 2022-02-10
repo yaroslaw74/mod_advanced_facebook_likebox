@@ -4,7 +4,7 @@ This contains the Facebook like box module for Joomla. This is a module that all
 
 ## Installation and Configuration
 
-1. Download the `mod_advanced_facebook_likebox.zip` from the [latest release](https://github.com/yaroslaw74/master/mod_advanced_facebook_likebox).
+1. Download the `mod_advanced_facebook_likebox.zip` from the [latest release](https://github.com/yaroslaw74/mod_advanced_facebook_likebox/archive/refs/heads/master.zip).
 2. In the Joomla administration panel, go to `Install Extensions`.
 3. Drag and drop the zip file or click `Or browse for file` and select the zip file.
 4. Then click `Manage` and search for `Advanced Facebook Like Box` to find the newly added extension.
@@ -16,7 +16,7 @@ This contains the Facebook like box module for Joomla. This is a module that all
 
 This extension was created based on the recommendation of Facebook developers (open source).
 
-History of changes https://github.com/yaroslaw74/mod_advanced_facebook_likebox/blob/develop/CHANGELOG
+History of changes [https://github.com/yaroslaw74/mod_advanced_facebook_likebox/CHANGELOG](https://github.com/yaroslaw74/mod_advanced_facebook_likebox/blob/develop/CHANGELOG)
 
 ## COPYRIGHT AND DISCLAIMER
 
