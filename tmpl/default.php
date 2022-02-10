@@ -1,8 +1,9 @@
+<?php
 /*------------------------------------------------------------------------
 # mod_advanced_facebook_likebox - Advanced Facebook Like Box
 # ------------------------------------------------------------------------
 # @author      Kataev Yaroslav
-# @version     1.0.0
+# @version     1.1.0
 # @description Facebook like box placement module on the website page.
 # @copyright   Copyright (C) 2022 Kataev Yaroslav. All rights reserved.
 # @license     GNU General Public License version 3; see LICENSE.txt
@@ -19,7 +20,7 @@ $showFaces 		= (boolean)$params->get('showFaces');
 $tabsTimeline 		= (boolean)$params->get('tabsTimeline');
 $tabsEvents 		= (boolean)$params->get('tabsEvents');
 $tabsMessages 		= (boolean)$params->get('tabsMessages');
-$showHeader		= (boolean)$params->get('showHeader');
+$showHeader 		= (boolean)$params->get('showHeader');
 $adaptContainerWidth 	= (boolean)$params->get('adaptContainerWidth');
 $smallHeader 		= (boolean)$params->get('smallHeader');
 $hideCta 		= (boolean)$params->get('hideCta');
@@ -27,18 +28,19 @@ $lang 			= $params->get('lang');
 $moduleClassCustom 	= htmlspecialchars($params->get('moduleClassCustom'));
 
 $dataTabs = "";
-if ($tabsTimeline == "true") {$dataTabs = "timeline";}
-if ($tabsEvents == "true") {
-	if ($dataTabs == "") {$dataTabs = "events";}
-	else {$dataTabs .= ",events";}
+if ($tabsTimeline) {$dataTabs = "timeline";}
+if ($tabsEvents) {
+	if (!empty($dataTabs)) {$dataTabs .= ",events";}
+	else {$dataTabs = "events";}
 }
-if ($tabsMessages == "true") {
-	if ($dataTabs == "") {$dataTabs = "messages";}
-	else {$dataTabs .= ",messages";}
+if ($tabsMessages) {
+	if (!empty($dataTabs) {$dataTabs .= ",messages";}
+	else {$dataTabs = "messages";}
 }
 if ($width < 180) {$width = 180;}
 if ($width > 500) {$width = 500;}
 if ($height < 70) {$height = 70;}
+	    
 ?>
 <div id="fb-root"></div>
 <script>
