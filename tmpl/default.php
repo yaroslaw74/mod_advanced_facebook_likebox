@@ -3,39 +3,44 @@
 # mod_advanced_facebook_likebox - Advanced Facebook Like Box
 # ------------------------------------------------------------------------
 # @author      Kataev Yaroslav
+# @version     1.1.0
 # @description Facebook like box placement module on the website page.
-# @copyright   (C) 2022 Kataev Yaroslav. All rights reserved.
-# @license     GNU General Public License version 2 or later
+# @copyright   Copyright (C) 2022 Kataev Yaroslav. All rights reserved.
+# @license     GNU General Public License version 3; see LICENSE.txt
 -------------------------------------------------------------------------*/
 
+// no direct access
 defined( '_JEXEC' ) or die;
-$href = $params->get('href');
-$pageName = $params->get('pageName');
-$width = trim($params->get('width'));
-$height = trim($params->get('height'));
-$showFaces = $params->get('showFaces');
-$tabsTimeline = $params->get('tabsTimeline');
-$tabsEvents = $params->get('tabsEvents');
-$tabsMessages = $params->get('tabsMessages');
-$showHeader = $params->get('showHeader');
-$adaptContainerWidth = $params->get('adaptContainerWidth');
-$smallHeader = $params->get('smallHeader');
-$hideCta = $params->get('hideCta');
-$lang = $params->get('lang');
-$moduleClassCustom = $params->get('moduleClassCustom');
+
+$href 			= trim($params->get('href'));
+$pageName 		= stripslashes($params->get('pageName'));
+$width 			= trim($params->get('width'));
+$height 		= trim($params->get('height'));
+$showFaces 		= (boolean)$params->get('showFaces');
+$tabsTimeline 		= (boolean)$params->get('tabsTimeline');
+$tabsEvents 		= (boolean)$params->get('tabsEvents');
+$tabsMessages 		= (boolean)$params->get('tabsMessages');
+$showHeader 		= (boolean)$params->get('showHeader');
+$adaptContainerWidth 	= (boolean)$params->get('adaptContainerWidth');
+$smallHeader 		= (boolean)$params->get('smallHeader');
+$hideCta 		= (boolean)$params->get('hideCta');
+$lang 			= $params->get('lang');
+$moduleClassCustom 	= htmlspecialchars($params->get('moduleClassCustom'));
+
 $dataTabs = "";
-if ($tabsTimeline == "true") {$dataTabs = "timeline";}
-if ($tabsEvents == "true") {
-	if ($dataTabs == "") {$dataTabs = "events";}
-	else {$dataTabs .= ",events";}
+if ($tabsTimeline) {$dataTabs = "timeline";}
+if ($tabsEvents) {
+	if (!empty($dataTabs)) {$dataTabs .= ",events";}
+	else {$dataTabs = "events";}
 }
-if ($tabsMessages == "true") {
-	if ($dataTabs == "") {$dataTabs = "messages";}
-	else {$dataTabs .= ",messages";}
+if ($tabsMessages) {
+	if (!empty($dataTabs) {$dataTabs .= ",messages";}
+	else {$dataTabs = "messages";}
 }
 if ($width < 180) {$width = 180;}
 if ($width > 500) {$width = 500;}
 if ($height < 70) {$height = 70;}
+	    
 ?>
 <div id="fb-root"></div>
 <script>
