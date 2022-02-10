@@ -3,10 +3,17 @@
 # mod_advanced_facebook_likebox - Advanced Facebook Like Box
 # ------------------------------------------------------------------------
 # @author      Kataev Yaroslav
+# @version     1.1.0
 # @description Facebook like box placement module on the website page.
-# @copyright   (C) 2022 Kataev Yaroslav. All rights reserved.
-# @license     GNU General Public License version 2 or later
+# @copyright   Copyright (C) 2022 Kataev Yaroslav. All rights reserved.
+# @license     GNU General Public License version 3; see LICENSE.txt
 -------------------------------------------------------------------------*/
 
+use Joomla\CMS\Helper\ModuleHelper;
+
+// no direct access
 defined( '_JEXEC' ) or die;
-require JModuleHelper::getLayoutPath('mod_advanced_facebook_likebox', $params->get('layout', 'default'));
+
+$layout = $params->get('layout', 'default');
+
+require JModuleHelper::getLayoutPath('mod_advanced_facebook_likebox', $layout);
