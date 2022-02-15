@@ -3,7 +3,7 @@
 # mod_advanced_facebook_likebox - Advanced Facebook Like Box
 # ------------------------------------------------------------------------
 # @author      Kataev Yaroslav
-# @version     1.2.0
+# @version     1.3.0
 # @description Facebook like box placement module on the website page.
 # @copyright   Copyright (C) 2022 Kataev Yaroslav. All rights reserved.
 # @license     GNU General Public License version 3; see LICENSE.txt
