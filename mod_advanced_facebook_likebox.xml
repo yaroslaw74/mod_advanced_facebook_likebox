@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 3</license>
 	<authorEmail>yaroslaw74@gmail.com</authorEmail>
 	<authorUrl>https://github.com/yaroslaw74</authorUrl>
-	<version>1.2.0</version>
+	<version>1.4.1</version>
 	<description>MOD_ADVANCED_FACEBOOK_LIKE_BOX_XML_DESCRIPTION</description>
 	<files>
 		<folder>tmpl</folder>
@@ -64,13 +64,21 @@
 				</field>
 				<field name="lang" type="list" default="en_GB" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_LANG_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_LANG_DESC">
 					<option value="af_ZA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_AF_ZA</option>
+					<option value="ak_GH">MOD_ADVANCED_FACEBOOK_LIKE_BOX_AK_GH</option>
+					<option value="am_ET">MOD_ADVANCED_FACEBOOK_LIKE_BOX_AM_ET</option>
 					<option value="ar_AR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_AR_AR</option>
+					<option value="as_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_AS_IN</option>
+					<option value="ay_BO">MOD_ADVANCED_FACEBOOK_LIKE_BOX_AY_BO</option>
 					<option value="az_AZ">MOD_ADVANCED_FACEBOOK_LIKE_BOX_AZ_AZ</option>
 					<option value="be_BY">MOD_ADVANCED_FACEBOOK_LIKE_BOX_BE_BY</option>
 					<option value="bg_BG">MOD_ADVANCED_FACEBOOK_LIKE_BOX_BG_BG</option>
 					<option value="bn_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_BN_IN</option>
+					<option value="br_FR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_BR_FR</option>
 					<option value="bs_BA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_BS_BA</option>
 					<option value="ca_ES">MOD_ADVANCED_FACEBOOK_LIKE_BOX_CA_ES</option>
+					<option value="cb_IQ">MOD_ADVANCED_FACEBOOK_LIKE_BOX_CB_IQ</option>
+					<option value="ck_US">MOD_ADVANCED_FACEBOOK_LIKE_BOX_CK_US</option>
+					<option value="co_FR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_CO_FR</option>
 					<option value="cs_CZ">MOD_ADVANCED_FACEBOOK_LIKE_BOX_CS_CZ</option>
 					<option value="cx_PH">MOD_ADVANCED_FACEBOOK_LIKE_BOX_CX_PH</option>
 					<option value="cy_GB">MOD_ADVANCED_FACEBOOK_LIKE_BOX_CY_GB</option>
@@ -78,16 +86,22 @@
 					<option value="de_DE">MOD_ADVANCED_FACEBOOK_LIKE_BOX_DE_DE</option>
 					<option value="el_GR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_EL_GR</option>
 					<option value="en_GB">MOD_ADVANCED_FACEBOOK_LIKE_BOX_EN_GB</option>
+					<option value="en_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_EN_IN</option>
 					<option value="en_PI">MOD_ADVANCED_FACEBOOK_LIKE_BOX_EN_PI</option>
 					<option value="en_UD">MOD_ADVANCED_FACEBOOK_LIKE_BOX_EN_UD</option>
 					<option value="en_US">MOD_ADVANCED_FACEBOOK_LIKE_BOX_EN_US</option>
 					<option value="eo_EO">MOD_ADVANCED_FACEBOOK_LIKE_BOX_EO_EO</option>
+					<option value="es_CO">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ES_CO</option>
+					<option value="es_CL">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ES_CL</option>
 					<option value="es_ES">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ES_ES</option>
 					<option value="es_LA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ES_LA</option>
+					<option value="es_MX">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ES_MX</option>
+					<option value="es_VE">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ES_VE</option>
 					<option value="et_EE">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ET_EE</option>
 					<option value="eu_ES">MOD_ADVANCED_FACEBOOK_LIKE_BOX_EU_ES</option>
 					<option value="fa_IR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_FA_IR</option>
 					<option value="fb_LT">MOD_ADVANCED_FACEBOOK_LIKE_BOX_FB_LT</option>
+					<option value="ff_NG">MOD_ADVANCED_FACEBOOK_LIKE_BOX_FF_NG</option>
 					<option value="fi_FI">MOD_ADVANCED_FACEBOOK_LIKE_BOX_FI_FI</option>
 					<option value="fo_FO">MOD_ADVANCED_FACEBOOK_LIKE_BOX_FO_FO</option>
 					<option value="fr_CA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_FR_CA</option>
@@ -96,60 +110,105 @@
 					<option value="ga_IE">MOD_ADVANCED_FACEBOOK_LIKE_BOX_GA_IE</option>
 					<option value="gl_ES">MOD_ADVANCED_FACEBOOK_LIKE_BOX_GL_ES</option>
 					<option value="gn_PY">MOD_ADVANCED_FACEBOOK_LIKE_BOX_GN_PY</option>
+					<option value="gu_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_GU_IN</option>
+					<option value="gx_GR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_GX_GR</option>
+					<option value="ha_NG">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HA_NG</option>
 					<option value="he_IL">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HE_IL</option>
-					<option value="hi_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HI_IL</option>
+					<option value="hi_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HI_IN</option>
 					<option value="hr_HR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HR_HR</option>
 					<option value="hu_HU">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HU_HU</option>
 					<option value="hy_AM">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HY_AM</option>
 					<option value="id_ID">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ID_ID</option>
+					<option value="ig_NG">MOD_ADVANCED_FACEBOOK_LIKE_BOX_IG_NG</option>
 					<option value="is_IS">MOD_ADVANCED_FACEBOOK_LIKE_BOX_IS_IS</option>
 					<option value="it_IT">MOD_ADVANCED_FACEBOOK_LIKE_BOX_IT_IT</option>
 					<option value="ja_JP">MOD_ADVANCED_FACEBOOK_LIKE_BOX_JA_JP</option>
+					<option value="ja_KS">MOD_ADVANCED_FACEBOOK_LIKE_BOX_JA_KS</option>
 					<option value="jv_ID">MOD_ADVANCED_FACEBOOK_LIKE_BOX_JV_ID</option>
 					<option value="ka_GE">MOD_ADVANCED_FACEBOOK_LIKE_BOX_KA_GE</option>
+					<option value="kk_KZ">MOD_ADVANCED_FACEBOOK_LIKE_BOX_KK_KZ</option>
 					<option value="km_KH">MOD_ADVANCED_FACEBOOK_LIKE_BOX_KM_KH</option>
 					<option value="kn_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_KN_IN</option>
 					<option value="ko_KR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_KO_KR</option>
 					<option value="ku_TR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_KU_TR</option>
 					<option value="la_VA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_LA_VA</option>
+					<option value="lg_UG">MOD_ADVANCED_FACEBOOK_LIKE_BOX_LG_UG</option>
+					<option value="li_NL">MOD_ADVANCED_FACEBOOK_LIKE_BOX_LI_NL</option>
+					<option value="ln_CD">MOD_ADVANCED_FACEBOOK_LIKE_BOX_LN_CD</option>
+					<option value="lo_LA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_LO_LA</option>
 					<option value="lt_LT">MOD_ADVANCED_FACEBOOK_LIKE_BOX_LT_LT</option>
 					<option value="lv_LV">MOD_ADVANCED_FACEBOOK_LIKE_BOX_LV_LV</option>
+					<option value="mg_MG">MOD_ADVANCED_FACEBOOK_LIKE_BOX_MG_MG</option>
 					<option value="mk_MK">MOD_ADVANCED_FACEBOOK_LIKE_BOX_MK_MK</option>
 					<option value="ml_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ML_IN</option>
+					<option value="mn_MN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_MN_MN</option>
+					<option value="mr_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_MR_IN</option>
 					<option value="ms_MY">MOD_ADVANCED_FACEBOOK_LIKE_BOX_MS_MY</option>
+					<option value="mt_MT">MOD_ADVANCED_FACEBOOK_LIKE_BOX_MT_MT</option>
+					<option value="my_MM">MOD_ADVANCED_FACEBOOK_LIKE_BOX_MY_MM</option>
 					<option value="nb_NO">MOD_ADVANCED_FACEBOOK_LIKE_BOX_NB_NO</option>
+					<option value="nd_ZW">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ND_ZW</option>
 					<option value="ne_NP">MOD_ADVANCED_FACEBOOK_LIKE_BOX_NE_NP</option>
+					<option value="nl_BE">MOD_ADVANCED_FACEBOOK_LIKE_BOX_NL_BE</option>
 					<option value="nl_NL">MOD_ADVANCED_FACEBOOK_LIKE_BOX_NL_NL</option>
 					<option value="nn_NO">MOD_ADVANCED_FACEBOOK_LIKE_BOX_NN_NO</option>
+					<option value="ny_MW">MOD_ADVANCED_FACEBOOK_LIKE_BOX_NY_MW</option>
+					<option value="or_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OR_IN</option>
 					<option value="pa_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_PA_IN</option>
 					<option value="pl_PL">MOD_ADVANCED_FACEBOOK_LIKE_BOX_PL_PL</option>
 					<option value="ps_AF">MOD_ADVANCED_FACEBOOK_LIKE_BOX_PS_AF</option>
 					<option value="pt_BR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_PT_BR</option>
 					<option value="pt_PT">MOD_ADVANCED_FACEBOOK_LIKE_BOX_PT_PT</option>
+					<option value="qu_PE">MOD_ADVANCED_FACEBOOK_LIKE_BOX_QU_PE</option>
+					<option value="rm_CH">MOD_ADVANCED_FACEBOOK_LIKE_BOX_RM_CH</option>
 					<option value="ro_RO">MOD_ADVANCED_FACEBOOK_LIKE_BOX_RO_RO</option>
 					<option value="ru_RU">MOD_ADVANCED_FACEBOOK_LIKE_BOX_RU_RU</option>
+					<option value="rw_RW">MOD_ADVANCED_FACEBOOK_LIKE_BOX_RW_RW</option>
+					<option value="sa_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SA_IN</option>
+					<option value="sc_IT">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SC_IT</option>
+					<option value="se_NO">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SE_NO</option>
 					<option value="si_LK">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SI_LK</option>
 					<option value="sk_SK">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SK_SK</option>
 					<option value="sl_SI">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SL_SI</option>
+					<option value="sn_ZW">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SN_ZW</option>
+					<option value="so_SO">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SO_SO</option>
 					<option value="sq_AL">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SQ_AL</option>
 					<option value="sr_RS">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SR_RS</option>
 					<option value="sv_SE">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SV_SE</option>
 					<option value="sw_KE">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SW_KE</option>
+					<option value="sy_SY">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SY_SY</option>
+					<option value="sz_PL">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SZ_PL</option>
 					<option value="ta_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_TA_IN</option>
 					<option value="te_IN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_TE_IN</option>
+					<option value="tg_TJ">MOD_ADVANCED_FACEBOOK_LIKE_BOX_TG_TJ</option>
 					<option value="th_TH">MOD_ADVANCED_FACEBOOK_LIKE_BOX_TH_TH</option>
+					<option value="tk_TM">MOD_ADVANCED_FACEBOOK_LIKE_BOX_TK_TM</option>
 					<option value="tl_PH">MOD_ADVANCED_FACEBOOK_LIKE_BOX_TL_PH</option>
+					<option value="tl_ST">MOD_ADVANCED_FACEBOOK_LIKE_BOX_TL_ST</option>
 					<option value="tr_TR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_TR_TR</option>
+					<option value="tt_RU">MOD_ADVANCED_FACEBOOK_LIKE_BOX_TT_RU</option>
+					<option value="tz_MA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_TZ_MA</option>
 					<option value="uk_UA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_UK_UA</option>
 					<option value="ur_PK">MOD_ADVANCED_FACEBOOK_LIKE_BOX_UR_PK</option>
+					<option value="uz_UZ">MOD_ADVANCED_FACEBOOK_LIKE_BOX_UZ_UZ</option>
 					<option value="vi_VN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_VI_VN</option>
+					<option value="wo_SN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_WO_SN</option>
+					<option value="xh_ZA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_XH_ZA</option>
+					<option value="yi_DE">MOD_ADVANCED_FACEBOOK_LIKE_BOX_YI_DE</option>
+					<option value="yo_NG">MOD_ADVANCED_FACEBOOK_LIKE_BOX_YO_NG</option>
 					<option value="zh_CN">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ZH_CN</option>
 					<option value="zh_HK">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ZH_HK</option>
 					<option value="zh_TW">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ZH_TW</option>
+					<option value="zu_ZA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ZU_ZA</option>
+					<option value="zz_TR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ZZ_TR</option>
 				</field>
 			</fieldset> 
 			<fieldset name="advanced">
 				<field name="moduleClassCustom" type="text" default="" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_CUSTOM_CLASS_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_CUSTOM_CLASS" />
+				<field name="moduleCenterHorizontally" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_CENTER_HORIZONTALLY_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_CENTER_HORIZONTALLY_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
 			</fieldset>
 		</fields>
 	</config>
