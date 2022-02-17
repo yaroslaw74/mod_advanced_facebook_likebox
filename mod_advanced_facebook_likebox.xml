@@ -37,20 +37,20 @@
 					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE</option>
 				</field>
 				<field name="tabsTimeline" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_TIMELINE_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_TIMELINE_DESC">
-					<option value="1">JYES</option>
-					<option value="0">JNO</option>
+					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW</option>
+					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE</option>
 				</field>
 				<field name="tabsEvents" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_EVENTS_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_EVENTS_DESC">
-					<option value="1">JYES</option>
-					<option value="0">JNO</option>
+					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW</option>
+					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE</option>
 				</field>
 				<field name="tabsMessages" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_MESSAGES_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_MESSAGES_DESC">
-					<option value="1">JYES</option>
-					<option value="0">JNO</option>
+					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW</option>
+					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE</option>
 				</field>
 				<field name="showHeader" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_HEADER_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_HEADER_DESC">
-					<option value="1">JYES</option>
-					<option value="0">JNO</option>
+					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW</option>
+					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE</option>
 				</field>
 				<field name="adaptContainerWidth" type="radio" default="1" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_ADAPT_CONTAINER_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_ADAPT_CONTAINER_DESC">
 					<option value="1">JYES</option>
@@ -61,8 +61,8 @@
 					<option value="0">JNO</option>
 				</field>
 				<field name="hideCta" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE_CTA_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE_CTA_DESC">
-					<option value="1">JYES</option>
-					<option value="0">JNO</option>
+					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW</option>
+					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE</option>
 				</field>
 				<field name="lang" type="list" default="en_GB" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_LANG_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_LANG_DESC">
 					<option value="af_ZA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_AF_ZA</option>
