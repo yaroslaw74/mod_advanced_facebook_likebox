@@ -5,7 +5,7 @@
 		<description>Facebook like box placement module on the website page.</description>
 		<element>mod_advanced_facebook_likebox</element>
 		<type>module</type>
-		<version>1.3.0</version>
+		<version>1.4.1</version>
 		<client>site</client>
 		<infourl title="mod_advanced_facebook_likebox">https://github.com/yaroslaw74/mod_advanced_facebook_likebox/releases/tag/1.4.1</infourl>
 		<downloads>
