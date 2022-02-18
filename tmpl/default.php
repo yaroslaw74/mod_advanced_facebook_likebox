@@ -3,30 +3,30 @@
 # mod_advanced_facebook_likebox - Advanced Facebook Like Box
 # ------------------------------------------------------------------------
 # @author      Kataev Yaroslav
-# @version     1.3.0
+# @version     1.5.0
 # @description Facebook like box placement module on the website page.
 # @copyright   Copyright (C) 2022 Kataev Yaroslav. All rights reserved.
-# @license     GNU General Public License version 3; see LICENSE.txt
+# @license     license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html; see LICENSE.txt
 -------------------------------------------------------------------------*/
 
 // no direct access
 defined( '_JEXEC' ) or die;
 
-$href 				= trim($params->get('href'));
-$pageName 			= stripslashes($params->get('pageName'));
-$width 				= trim($params->get('width'));
-$height 			= trim($params->get('height'));
-$showFaces 			= (boolean)$params->get('showFaces');
-$tabsTimeline 			= (boolean)$params->get('tabsTimeline');
-$tabsEvents 			= (boolean)$params->get('tabsEvents');
-$tabsMessages 			= (boolean)$params->get('tabsMessages');
-$showHeader 			= (boolean)$params->get('showHeader');
-$adaptContainerWidth 		= (boolean)$params->get('adaptContainerWidth');
-$smallHeader 			= (boolean)$params->get('smallHeader');
-$hideCta 			= (boolean)$params->get('hideCta');
+$href		= trim($params->get('href'));
+$pageName	= stripslashes($params->get('pageName'));
+$width		= trim($params->get('width'));
+$height		= trim($params->get('height'));
+$lang		= $params->get('lang');
+
+$showFaces					= (boolean)$params->get('showFaces');
+$tabsTimeline				= (boolean)$params->get('tabsTimeline');
+$tabsEvents					= (boolean)$params->get('tabsEvents');
+$tabsMessage				= (boolean)$params->get('tabsMessages');
+$showHeader					= (boolean)$params->get('showHeader');
+$adaptContainerWidth		= (boolean)$params->get('adaptContainerWidth');
+$smallHeader				= (boolean)$params->get('smallHeader');
+$hideCta					= (boolean)$params->get('hideCta');
 $moduleCenterHorizontally	= (boolean)$params->get('moduleCenterHorizontally');
-$lang 				= $params->get('lang');
-$moduleClassCustom 		= htmlspecialchars($params->get('moduleClassCustom'));
 
 $dataTabs = "";
 if ($tabsTimeline) {$dataTabs = "timeline";}
@@ -57,12 +57,10 @@ if ($height < 70) {$height = 70;}
 </script>
 <?php
 if ($moduleCenterHorizontally) {echo '<div align="center">';}
-if (!empty($moduleClassCustom)) {echo '<div class ="'.$moduleClassCustom.'">';}
 ?>
 <div class="fb-page" data-href="<?php echo $href; ?>" data-tabs="<?php echo $dataTabs ?>" data-width="<?php echo $width; ?>" data-height="<?php echo $height; ?>" data-small-header="<?php echo $smallHeader ?>" data-adapt-container-width="<?php echo $adaptContainerWidth ?>" data-hide-cover="<?php echo $showHeader; ?>" data-show-facepile="<?php echo $showFaces; ?>">
 	<blockquote cite="<?php echo $href; ?>" class="fb-xfbml-parse-ignore"><a href="<?php echo $href; ?>"><?php echo $pageName; ?></a></blockquote>
 </div>
 <?php
-if (!empty($moduleClassCustom)) {echo '</div>';}
 if ($moduleCenterHorizontally) {echo '</div>';}
 ?>
