@@ -18,14 +18,14 @@ $width		= trim($params->get('width'));
 $height		= trim($params->get('height'));
 $lang		= $params->get('lang');
 
-$showFaces					= (boolean)$params->get('showFaces');
-$tabsTimeline				= (boolean)$params->get('tabsTimeline');
-$tabsEvents					= (boolean)$params->get('tabsEvents');
-$tabsMessage				= (boolean)$params->get('tabsMessages');
-$showHeader					= (boolean)$params->get('showHeader');
+$showFaces			= (boolean)$params->get('showFaces');
+$tabsTimeline			= (boolean)$params->get('tabsTimeline');
+$tabsEvents			= (boolean)$params->get('tabsEvents');
+$tabsMessage			= (boolean)$params->get('tabsMessages');
+$showHeader			= (boolean)$params->get('showHeader');
 $adaptContainerWidth		= (boolean)$params->get('adaptContainerWidth');
-$smallHeader				= (boolean)$params->get('smallHeader');
-$hideCta					= (boolean)$params->get('hideCta');
+$smallHeader			= (boolean)$params->get('smallHeader');
+$hideCta			= (boolean)$params->get('hideCta');
 $moduleCenterHorizontally	= (boolean)$params->get('moduleCenterHorizontally');
 
 $dataTabs = "";
