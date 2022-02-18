@@ -5,18 +5,18 @@
 		<description>Facebook like box placement module on the website page.</description>
 		<element>mod_advanced_facebook_likebox</element>
 		<type>module</type>
-		<version>1.4.2</version>
+		<version>1.5.2</version>
 		<client>site</client>
-		<infourl title="mod_advanced_facebook_likebox">https://github.com/yaroslaw74/mod_advanced_facebook_likebox/releases/tag/1.4.2</infourl>
+		<infourl title="mod_advanced_facebook_likebox">https://github.com/yaroslaw74/mod_advanced_facebook_likebox/releases/tag/1.5.2</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/yaroslaw74/mod_advanced_facebook_likebox/archive/refs/tags/1.4.2.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/yaroslaw74/mod_advanced_facebook_likebox/archive/refs/tags/1.5.2.zip</downloadurl>
 		</downloads>
 		<tabs>
 			<tag>stable</tag>
 		</tabs>
 		<targetplatform name="joomla" version=".*" />
-		<sha256>54e4e7d7c767b5d5f6a8fc61569017c9e876804cee15a25839eeb796421681e7</sha256>
-		<sha384>43f5ec0d9945647bfd669c40b17fc95d1d860e97dad42000252410975c50a4a541c5241974e0107d1dcec3e7380b4a7a</sha384>
-		<sha512>26a1bffb79d646b244c706d1bcdd74b66fb12c2dda12dbdc22c163ddf0b9dba6554a44d05a9401cc43684d8327fa97ef167f80334c572570340d4a8c456fc63e</sha512>
+		<sha256>81430f609e78ad605cefaafcf0a0621b98ebf83fa4cd1fcfd207e37082feb2a7</sha256>
+		<sha384>64b363cf79b446ec830c5a4ae3115ff7a15c888897c4d1f11927155e7f5c3b061e530693defd3d62a330deb49b2d3446</sha384>
+		<sha512>a6f67b53115f3c49d76c8017525b31a8e30fc20668bf46d23171fd05e69bb18c715689fa0e5eef27bbf27374ac3ba4376d292a42600450860fd7bf1290a7e768</sha512>
 	</update>
 </updates>
