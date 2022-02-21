@@ -7,7 +7,7 @@
 	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html; see LICENSE.txt</license>
 	<authorEmail>yaroslaw74@gmail.com</authorEmail>
 	<authorUrl>https://github.com/yaroslaw74</authorUrl>
-	<version>1.6.2</version>
+	<version>1.7.2</version>
 	<description>MOD_ADVANCED_FACEBOOK_LIKE_BOX_XML_DESCRIPTION</description>
 	<files>
 		<folder>tmpl</folder>
@@ -30,39 +30,39 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="href" type="url" default="http://www.facebook.com/Facebook" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HREF_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HREF_DESC" />
-				<field name="pageName" type="text" default="Facebook Developers" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_PAGE_NAME_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_PAGE_NAME_DESC" />
-				<field name="width" type="text" default="340" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_WIDTH_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_WIDTH_DESC" filter="integer" />
-				<field name="height" type="text" default="500" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HEIGHT_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HEIGHT_DESC" filter="integer" />
-				<field name="showFaces" type="radio" default="1" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_FACES_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_FACES_DESC">
+				<field name="href" type="url" default="http://www.facebook.com/Facebook" filter="url" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HREF_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HREF_DESC" />
+				<field name="pageName" type="text" default="Facebook Developers" filter="safehtml" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_PAGE_NAME_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_PAGE_NAME_DESC" />
+				<field name="width" type="number" default="340" filter="integer" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_WIDTH_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_WIDTH_DESC" />
+				<field name="height" type="number" default="500" filter="integer" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HEIGHT_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HEIGHT_DESC" />
+				<field name="showFaces" type="radio" default="1" class="btn-group btn-group-yesno" filter="integer" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_FACES_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_FACES_DESC">
 					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_SHOW</option>
 					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_HIDE</option>
 				</field>
-				<field name="tabsTimeline" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_TIMELINE_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_TIMELINE_DESC">
+				<field name="tabsTimeline" type="radio" default="0" class="btn-group btn-group-yesno" filter="integer" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_TIMELINE_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_TIMELINE_DESC">
 					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_SHOW</option>
 					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_HIDE</option>
 				</field>
-				<field name="tabsEvents" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_EVENTS_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_EVENTS_DESC">
+				<field name="tabsEvents" type="radio" default="0" class="btn-group btn-group-yesno" filter="integer" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_EVENTS_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_EVENTS_DESC">
 					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_SHOW</option>
 					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_HIDE</option>
 				</field>
-				<field name="tabsMessages" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_MESSAGES_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_MESSAGES_DESC">
+				<field name="tabsMessages" type="radio" default="0" class="btn-group btn-group-yesno" filter="integer" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_MESSAGES_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_TABS_MESSAGES_DESC">
 					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_SHOW</option>
 					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_HIDE</option>
 				</field>
-				<field name="showHeader" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_HEADER_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_HEADER_DESC">
+				<field name="showHeader" type="radio" default="0" class="btn-group btn-group-yesno" filter="integer" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_HEADER_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_HEADER_DESC">
 					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_SHOW</option>
 					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_HIDE</option>
 				</field>
-				<field name="adaptContainerWidth" type="radio" default="1" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_ADAPT_CONTAINER_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_ADAPT_CONTAINER_DESC">
+				<field name="adaptContainerWidth" type="radio" default="1" class="btn-group btn-group-yesno" filter="integer" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_ADAPT_CONTAINER_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_ADAPT_CONTAINER_DESC">
 					<option value="1">JYES</option>
 					<option value="0">JNO</option>
 				</field>
-				<field name="smallHeader" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SMALL_HEADER_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SMALL_HEADER_DESC">
+				<field name="smallHeader" type="radio" default="0" class="btn-group btn-group-yesno" filter="integer" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SMALL_HEADER_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SMALL_HEADER_DESC">
 					<option value="1">JYES</option>
 					<option value="0">JNO</option>
 				</field>
-				<field name="hideCta" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE_CTA_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE_CTA_DESC">
+				<field name="hideCta" type="radio" default="0" class="btn-group btn-group-yesno" filter="integer" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE_CTA_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HIDE_CTA_DESC">
 					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_SHOW</option>
 					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_HIDE</option>
 				</field>
@@ -206,7 +206,7 @@
 					<option value="zu_ZA">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ZU_ZA</option>
 					<option value="zz_TR">MOD_ADVANCED_FACEBOOK_LIKE_BOX_ZZ_TR</option>
 				</field>
-				<field name="moduleCenterHorizontally" type="radio" default="0" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_CENTER_HORIZONTALLY_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_CENTER_HORIZONTALLY_DESC">
+				<field name="moduleCenterHorizontally" type="radio" default="0" class="btn-group btn-group-yesno" filter="integer" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_CENTER_HORIZONTALLY_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_CENTER_HORIZONTALLY_DESC">
 					<option value="1">JYES</option>
 					<option value="0">JNO</option>
 				</field>
