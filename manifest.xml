@@ -14,7 +14,7 @@
 		<tabs>
 			<tag>stable</tag>
 		</tabs>
-		<targetplatform name="joomla" version="4.*" />
+		<targetplatform name="joomla" version=".*" />
 		<sha256>6c8d5e3cf1fd101ccd46e487e0bc0b3fdb8d0c9505103b65f2e698579c468f8a</sha256>
 		<sha384>1ac5f22571f7c6d1c742104d487a1d0462b23e5a8fa8e5d55f3b406fc0b94ff17c64afdcc850adc8bbb85468ba5e728a</sha384>
 		<sha512>f234481a0887ccdb694e38f83886f37131cf86c26cd09796d623d286e687d161344f22048003bd3c0f76d84fa2dac9a7e60c590d37c266bdfcf779f6659aba97</sha512>
