@@ -7,7 +7,7 @@
 	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html; see LICENSE.txt</license>
 	<authorEmail>yaroslaw74@gmail.com</authorEmail>
 	<authorUrl>https://github.com/yaroslaw74</authorUrl>
-	<version>1.5.2</version>
+	<version>1.6.2</version>
 	<description>MOD_ADVANCED_FACEBOOK_LIKE_BOX_XML_DESCRIPTION</description>
 	<files>
 		<folder>tmpl</folder>
@@ -30,10 +30,10 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="href" type="text" default="http://www.facebook.com/Facebook" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HREF_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HREF_DESC" />
+				<field name="href" type="url" default="http://www.facebook.com/Facebook" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HREF_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HREF_DESC" />
 				<field name="pageName" type="text" default="Facebook Developers" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_PAGE_NAME_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_PAGE_NAME_DESC" />
-				<field name="width" type="text" default="340" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_WIDTH_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_WIDTH_DESC" />
-				<field name="height" type="text" default="500" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HEIGHT_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HEIGHT_DESC" />
+				<field name="width" type="text" default="340" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_WIDTH_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_WIDTH_DESC" filter="integer" />
+				<field name="height" type="text" default="500" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HEIGHT_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_HEIGHT_DESC" filter="integer" />
 				<field name="showFaces" type="radio" default="1" class="btn-group btn-group-yesno" label="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_FACES_LABEL" description="MOD_ADVANCED_FACEBOOK_LIKE_BOX_SHOW_FACES_DESC">
 					<option value="1">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_SHOW</option>
 					<option value="0">MOD_ADVANCED_FACEBOOK_LIKE_BOX_OPTION_HIDE</option>
