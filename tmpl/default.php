@@ -4,7 +4,7 @@
 * mod_advanced_facebook_likebox - Advanced Facebook Like Box
 *-------------------------------------------------------------------------------------------
 * @author      Kataev Yaroslav
-* @version     1.7.0
+* @version     1.8.0
 * @description Facebook like box placement module on the website page.
 * @copyright   Copyright (C) 2022 Kataev Yaroslav. All rights reserved.
 * @license     license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html; see LICENSE.txt
@@ -18,7 +18,7 @@ $href = trim($params->get('href', 'http://www.facebook.com/Facebook'));
 $pageName = trim($params->get('pageName', 'Facebook Developers'));
 $width = intval($params->get('width', 340));
 $height = intval($params->get('height', 500));
-$lang = $params->get('lang', 'en_GB');
+$lang		= $params->get('lang', 'en_GB');
 
 $showFaces = (boolean)$params->get('showFaces', 1);
 $tabsTimeline = (boolean)$params->get('tabsTimeline', 0);
